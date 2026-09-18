@@ -18,3 +18,37 @@ aside {
 	flex: 1;
 	overflow-y: auto;
 }
+
+/* --- Custom styling below (Task 3) --- */
+
+header {
+	background-color: #222;
+	color: #fff;
+}
+
+header a {
+	color: #fff;
+}
+
+header .logo {
+	font-size: 28px;
+}
+
+footer {
+	background-color: #222;
+	color: #fff;
+	text-align: center;
+}
+
+footer a {
+	color: #4ea1ff;
+}
+
+article h1 {
+	color: #222;
+}
+
+article img {
+	max-width: 100%;
+	border-radius: 8px;
+}
