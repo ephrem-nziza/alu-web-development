@@ -344,3 +344,32 @@ main > section:nth-of-type(5) p {
 	color: #666;
 	line-height: 1.6;
 }
+
+/* Footer */
+footer {
+	background-color: #14213d;
+	padding: 40px 20px;
+}
+
+footer > div:first-child {
+	max-width: 1100px;
+	margin: 0 auto;
+}
+
+footer > div:first-child > div {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+footer > div:first-child > div > div {
+	display: flex;
+	gap: 20px;
+}
+
+footer p {
+	text-align: center;
+	color: #999;
+	font-size: 13px;
+	margin: 20px 0 0;
+}
