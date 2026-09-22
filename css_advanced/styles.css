@@ -1,0 +1,106 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	font-family: 'Source Sans Pro', sans-serif;
+	color: #333;
+}
+
+header {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 10;
+	max-width: 1100px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 20px;
+}
+
+header div:first-child img {
+	height: 30px;
+}
+
+header div:last-child {
+	display: flex;
+	gap: 20px;
+}
+
+header a {
+	color: #fff;
+	text-decoration: none;
+}
+
+main > section:first-of-type {
+	position: relative;
+	background-color: #222;
+	background-image: url('https://placehold.co/1400x800/222222');
+	background-size: cover;
+	background-position: center;
+	padding: 100px 20px 60px;
+	text-align: center;
+}
+
+main > section:first-of-type h1 {
+	color: #fff;
+	font-size: 48px;
+	margin-top: 40px;
+}
+
+main > section:first-of-type > div:first-child p {
+	color: #fff;
+	font-size: 16px;
+	letter-spacing: 2px;
+}
+
+main > section:first-of-type button {
+	background-color: #a86eea;
+	color: #fff;
+	border: none;
+	border-radius: 20px;
+	padding: 10px 30px;
+	box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+	margin: 20px 0;
+}
+
+main > section:first-of-type h2 {
+	color: #a86eea;
+	font-size: 20px;
+	margin: 40px 0 20px;
+}
+
+main > section:first-of-type > div:nth-child(2) > div {
+	max-width: 900px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	gap: 30px;
+}
+
+main > section:first-of-type > div:nth-child(2) > div > div {
+	text-align: center;
+}
+
+main > section:first-of-type img {
+	border-radius: 50%;
+	width: 60px;
+	height: 60px;
+	margin-bottom: 10px;
+}
+
+main > section:first-of-type h3 {
+	font-weight: bold;
+	font-size: 14px;
+	margin: 5px 0;
+}
+
+main > section:first-of-type > div:nth-child(2) p {
+	font-style: italic;
+	font-size: 12px;
+	color: #fff;
+}
