@@ -143,3 +143,109 @@ main > section:nth-of-type(2) p:last-of-type {
 	font-style: italic;
 	margin: 0;
 }
+
+/* Videos list */
+main > section:nth-of-type(3) {
+	background-color: #fff;
+	padding: 60px 20px;
+	text-align: center;
+}
+
+main > section:nth-of-type(3) h1 {
+	font-size: 24px;
+	margin-bottom: 40px;
+}
+
+main > section:nth-of-type(3) > div {
+	max-width: 1100px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	gap: 20px;
+	flex-wrap: wrap;
+}
+
+main > section:nth-of-type(3) > div > div {
+	width: 250px;
+	text-align: left;
+	border-radius: 8px;
+	overflow: hidden;
+	box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+main > section:nth-of-type(3) > div > div > img:first-child {
+	width: 100%;
+	display: block;
+}
+
+main > section:nth-of-type(3) h2 {
+	font-size: 16px;
+	margin: 10px 15px 5px;
+}
+
+main > section:nth-of-type(3) > div > div > p {
+	font-size: 13px;
+	margin: 0 15px 10px;
+	color: #666;
+}
+
+main > section:nth-of-type(3) > div > div > div:first-of-type {
+	display: flex;
+	align-items: center;
+	gap: 8px;
+	margin: 0 15px 10px;
+}
+
+main > section:nth-of-type(3) > div > div > div:first-of-type img {
+	border-radius: 50%;
+	width: 24px;
+	height: 24px;
+}
+
+main > section:nth-of-type(3) > div > div > div:first-of-type h3 {
+	color: #a86eea;
+	font-size: 13px;
+	margin: 0;
+}
+
+main > section:nth-of-type(3) > div > div > div:last-of-type {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 0 15px 15px;
+}
+
+main > section:nth-of-type(3) > div > div > div:last-of-type > div {
+	display: flex;
+	gap: 2px;
+}
+
+main > section:nth-of-type(3) > div > div > div:last-of-type img {
+	width: 14px;
+	height: 14px;
+}
+
+main > section:nth-of-type(3) > div > div > div:last-of-type p {
+	color: #a86eea;
+	font-size: 12px;
+	margin: 0;
+}
+
+main > section:nth-of-type(3) > div > div {
+	position: relative;
+}
+
+main > section:nth-of-type(3) > div > div::after {
+	content: "";
+	position: absolute;
+	top: 100px;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 0;
+	height: 0;
+	border-left: 18px solid #fff;
+	border-top: 12px solid transparent;
+	border-bottom: 12px solid transparent;
+	filter: drop-shadow(0 0 3px rgba(0,0,0,0.4));
+	pointer-events: none;
+}
