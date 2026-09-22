@@ -304,3 +304,43 @@ main > section:nth-of-type(4) button {
 main > section:nth-of-type(4) h1 span {
 	color: #a86eea;
 }
+
+/* FAQ */
+main > section:nth-of-type(5) {
+	background-color: #fff;
+	padding: 60px 20px;
+	text-align: center;
+}
+
+main > section:nth-of-type(5) h1 {
+	font-size: 32px;
+	color: #333;
+	margin-bottom: 40px;
+}
+
+main > section:nth-of-type(5) > div {
+	max-width: 900px;
+	margin: 0 auto;
+}
+
+main > section:nth-of-type(5) > div > div {
+	display: flex;
+	gap: 60px;
+	margin-bottom: 40px;
+	text-align: left;
+}
+
+main > section:nth-of-type(5) > div > div > div {
+	flex: 1;
+}
+
+main > section:nth-of-type(5) h2 {
+	font-size: 16px;
+	margin-bottom: 10px;
+}
+
+main > section:nth-of-type(5) p {
+	font-size: 14px;
+	color: #666;
+	line-height: 1.6;
+}
